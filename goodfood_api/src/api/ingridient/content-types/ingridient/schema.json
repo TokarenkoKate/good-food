@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ingridients",
+  "info": {
+    "singularName": "ingridient",
+    "pluralName": "ingridients",
+    "displayName": "ingredient",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
